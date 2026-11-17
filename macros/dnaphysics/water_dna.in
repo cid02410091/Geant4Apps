@@ -1,0 +1,92 @@
+# dnaphysics: batch
+# [CHANGED] Batch mode: no GUI or visualization manager.
+# Verbosity
+/tracking/verbose 0
+/run/verbose 2
+/control/verbose 2
+#
+# MT
+/run/numberOfThreads 2
+#
+# [CHANGED] Convert TOPAS World half-lengths (5, 5, 20 cm) to full X, Y, Z lengths.
+# World material is fixed to G4_Galactic in the source.
+/dna/test/SetWorldSize 10 10 40 cm
+#
+# [CHANGED] Convert TOPAS Water half-lengths (2 cm, 2 cm, 1 mm) to full lengths.
+/dna/test/SetMaterial G4_WATER
+/dna/test/SetMaterialSize 40 40 2 mm
+# [CHANGED] Match TOPAS TransZ=1.5 mm; this is the Water center.
+/dna/test/SetMaterialPosition 0 0 1.5 mm
+#
+
+# [CHANGED] Depth binning is configured in the /score/ block below.
+
+# Atomic deexcitation
+/process/em/fluo true
+/process/em/auger true
+/process/em/augerCascade true
+/process/em/deexcitationIgnoreCut true
+#
+# Physics
+# - To use Geant4-DNA constructor X, X=0, 2, 4, or 6 (recommended)
+#/dna/test/addPhysics DNA_Opt0
+/dna/test/addPhysics DNA_Opt2
+#/dna/test/addPhysics DNA_Opt4
+#/dna/test/addPhysics DNA_Opt6
+#
+# - To add radioactive decay
+/dna/test/addPhysics raddecay
+#
+# Heavy ions tracking cut
+#/dna/test/addIonsTrackingCut false
+#
+
+# [ADDED] Load the existing PoPLaR proton snapshot before run initialization.
+# Preserve each record's position (cm), direction, energy (MeV) and weight.
+# Paths are relative to the current working directory, as in /control/execute.
+/dna/source/phaseSpaceFile ../../../poplar/PoPLaR-test_end_snapshot.phsp
+# [ADDED] Each event consumes one record; later runs continue without recycling.
+#
+
+# Run initialization
+/run/initialize
+#
+# [CHANGED] Visualization disabled for this batch run.
+# [DISABLED] /control/execute vis.mac
+
+# [CHANGED] Match TOPAS: invisible World and solid skyblue Water.
+# [DISABLED] /vis/geometry/set/visibility World 0 false
+# [DISABLED] /vis/geometry/set/colour Target 0 0.529411765 0.807843137 0.921568627 1
+# [DISABLED] /vis/geometry/set/forceSolid Target 0 true
+# [DISABLED] /vis/viewer/refresh
+#
+
+# [CHANGED] Disable the fixed particle gun settings; use the PoPLaR snapshot.
+
+
+# ---- DEPTH ENERGY-DEPOSITION SCORING [ADDED] ----
+# Use the built-in scorer; step and track tables are also written to dna.root.
+# HALF-lengths below match the 40 x 40 x 2 mm Water volume.
+/score/create/boxMesh waterDepth
+/score/mesh/boxSize 20 20 1 mm
+/score/mesh/translate/xyz 0 0 1.5 mm
+# [ADDED] Change the last integer to set the number of depth bins.
+# For this 2 mm slab, 200 bins give a bin width of 10 um.
+/score/mesh/nBin 1 1 200
+# Include energy deposited by all particles, including secondary electrons.
+/score/quantity/energyDeposit eDep MeV
+/score/close
+# [ADDED] Output name used by the export command below.
+/control/alias edepFile PoPLaR_water_geant4_dna_edep.csv
+# [CHANGED] Keep trajectory storage disabled for batch scoring.
+/tracking/storeTrajectory 0
+# ---- END DEPTH SCORING ----
+
+# [CHANGED] Run the configured number of PoPLaR primary events, then export merged scores.
+/run/beamOn 100
+/score/dumpQuantityToFile waterDepth eDep {edepFile}
+# The CSV contains depth-bin indices and cumulative energy deposits in MeV.
+# Depth from the Water front face: (z-bin index + 0.5) * (2 mm / number of z bins).
+# Divide total(value) by the /run/beamOn count for mean energy per primary.
+# Each application launch starts again at the first phase-space record.
+# Exporting to the same filename overwrites the previous scoring CSV.

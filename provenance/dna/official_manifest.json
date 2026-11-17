@@ -1,0 +1,220 @@
+{
+  "repository": "https://github.com/Geant4/geant4",
+  "reference": "v11.3.2",
+  "tag_object": {
+    "sha": "1b1ba3154688256fe92c44fecc455050f00f64c9",
+    "type": "tag",
+    "url": "https://api.github.com/repos/Geant4/geant4/git/tags/1b1ba3154688256fe92c44fecc455050f00f64c9"
+  },
+  "example_path": "examples/extended/medical/dna/dnaphysics",
+  "files": [
+    {
+      "file": ".README.txt",
+      "url": "https://raw.githubusercontent.com/Geant4/geant4/v11.3.2/examples/extended/medical/dna/dnaphysics/.README.txt",
+      "git_blob_sha": "b9adc6504b0682537c87c6844244b7c9202287da",
+      "sha256": "54ecc5dd7ee19c8fba74feebf0340c8e02975964001f6375889f008f5ad62d68",
+      "bytes": 5701
+    },
+    {
+      "file": "CMakeLists.txt",
+      "url": "https://raw.githubusercontent.com/Geant4/geant4/v11.3.2/examples/extended/medical/dna/dnaphysics/CMakeLists.txt",
+      "git_blob_sha": "d63229d5195f2af97c0815beef381617903c9c11",
+      "sha256": "4606c2e3315f4bc570f69fe7d59c8bacc8f3385671f897d8f75c7f6415ae73d9",
+      "bytes": 2094
+    },
+    {
+      "file": "GNUmakefile",
+      "url": "https://raw.githubusercontent.com/Geant4/geant4/v11.3.2/examples/extended/medical/dna/dnaphysics/GNUmakefile",
+      "git_blob_sha": "22c903dcf06d7e1e52ae7f43e60ffcf9efab488b",
+      "sha256": "90179cecaf2fbfe51e5a0cb97a09c5c8b6fade9d1c2120d53e96b7251a2694d4",
+      "bytes": 425
+    },
+    {
+      "file": "History",
+      "url": "https://raw.githubusercontent.com/Geant4/geant4/v11.3.2/examples/extended/medical/dna/dnaphysics/History",
+      "git_blob_sha": "baa494e3af3f7747a05cdd49677ab721cf9fff3d",
+      "sha256": "fda3d30b6e2c0cb096dbaed7d540225f9863978c79b2e6b62a823d19fac4bbca",
+      "bytes": 9537
+    },
+    {
+      "file": "README",
+      "url": "https://raw.githubusercontent.com/Geant4/geant4/v11.3.2/examples/extended/medical/dna/dnaphysics/README",
+      "git_blob_sha": "c072bb8dc6b214d26f79b441174d07f7c4d649c4",
+      "sha256": "cdd599d44b787140b7c649d3fda64f73bf0390190d731045cc7d3b015021e519",
+      "bytes": 5456
+    },
+    {
+      "file": "deexcitation.in",
+      "url": "https://raw.githubusercontent.com/Geant4/geant4/v11.3.2/examples/extended/medical/dna/dnaphysics/deexcitation.in",
+      "git_blob_sha": "e552a96e73d5e24c682912bf00213760c02746e6",
+      "sha256": "b088c323c354ee18e212301abece43c3c3432daf6aa97435043f3fa17a6e144d",
+      "bytes": 476
+    },
+    {
+      "file": "dnaphysics.cc",
+      "url": "https://raw.githubusercontent.com/Geant4/geant4/v11.3.2/examples/extended/medical/dna/dnaphysics/dnaphysics.cc",
+      "git_blob_sha": "59d234484abc72886d3b94e83e18cff28b378940",
+      "sha256": "16dd68d72a7ec414e7d6522deab566c2b6e8eaf0d6e0e04ebf2b4f7d92b92e21",
+      "bytes": 3776
+    },
+    {
+      "file": "dnaphysics.in",
+      "url": "https://raw.githubusercontent.com/Geant4/geant4/v11.3.2/examples/extended/medical/dna/dnaphysics/dnaphysics.in",
+      "git_blob_sha": "e354b717201a7473640f24ae5c1bbcc3fac8211e",
+      "sha256": "d4605a162b0f8cead3e1ecc2818fc81149068fec9b0a0e6e77396cd4875e7d53",
+      "bytes": 1081
+    },
+    {
+      "file": "dnaphysics.out",
+      "url": "https://raw.githubusercontent.com/Geant4/geant4/v11.3.2/examples/extended/medical/dna/dnaphysics/dnaphysics.out",
+      "git_blob_sha": "64144f8e5a217b004c7c497a8938b7ba5d15f63b",
+      "sha256": "b9320b0dd90f03a5b33931904c26967ec9c01bde771daa412e80de7ba2e06425",
+      "bytes": 32334
+    },
+    {
+      "file": "include/ActionInitialization.hh",
+      "url": "https://raw.githubusercontent.com/Geant4/geant4/v11.3.2/examples/extended/medical/dna/dnaphysics/include/ActionInitialization.hh",
+      "git_blob_sha": "a7336ebfee3fa8e4587a656dcece86e270ecc830",
+      "sha256": "6650cdbe0da556671239c321c8330628dc0189a770cb7dd5bc23bd56da4ad9c7",
+      "bytes": 2516
+    },
+    {
+      "file": "include/DetectorConstruction.hh",
+      "url": "https://raw.githubusercontent.com/Geant4/geant4/v11.3.2/examples/extended/medical/dna/dnaphysics/include/DetectorConstruction.hh",
+      "git_blob_sha": "2a2681efe26d258ae479e9ee7712beb030467d6d",
+      "sha256": "813cb56c345834200a50cd87da95bc4103e3b34b53e5fefc5a931556854501e5",
+      "bytes": 3119
+    },
+    {
+      "file": "include/DetectorMessenger.hh",
+      "url": "https://raw.githubusercontent.com/Geant4/geant4/v11.3.2/examples/extended/medical/dna/dnaphysics/include/DetectorMessenger.hh",
+      "git_blob_sha": "1497f1a9e51af7081b1f13cdb7e4f2bac3becd69",
+      "sha256": "a26c7ac650a4fd73aebdf9168770dfa238b22ef9f07ed84315a2fc72e133b5dd",
+      "bytes": 2969
+    },
+    {
+      "file": "include/PhysicsList.hh",
+      "url": "https://raw.githubusercontent.com/Geant4/geant4/v11.3.2/examples/extended/medical/dna/dnaphysics/include/PhysicsList.hh",
+      "git_blob_sha": "c80034bc50987d9f661b23312a7dfa59e3e91097",
+      "sha256": "b0d94363df46bb2b00e1eceddadf109b426e803852dc2de4b59b25751ea1cbb1",
+      "bytes": 2925
+    },
+    {
+      "file": "include/PrimaryGeneratorAction.hh",
+      "url": "https://raw.githubusercontent.com/Geant4/geant4/v11.3.2/examples/extended/medical/dna/dnaphysics/include/PrimaryGeneratorAction.hh",
+      "git_blob_sha": "059f71744a93625fe25aad7d55391e7cd1162f78",
+      "sha256": "7c9a1418d1448a47bb265d25e3a18cd440ab377fbf80f3ebdc23f25d7c29bec6",
+      "bytes": 2616
+    },
+    {
+      "file": "include/RunAction.hh",
+      "url": "https://raw.githubusercontent.com/Geant4/geant4/v11.3.2/examples/extended/medical/dna/dnaphysics/include/RunAction.hh",
+      "git_blob_sha": "ab4f9380b506b42dc595ea6a5752445123be9be1",
+      "sha256": "a55e5890a8a4690c64366fc3e712901af5b2a46905bf65a259e0bb66290528a8",
+      "bytes": 2530
+    },
+    {
+      "file": "include/SteppingAction.hh",
+      "url": "https://raw.githubusercontent.com/Geant4/geant4/v11.3.2/examples/extended/medical/dna/dnaphysics/include/SteppingAction.hh",
+      "git_blob_sha": "5ce2333407d10009ec61d19c05dd8cce0450a5b7",
+      "sha256": "f482333ce81f5686783f62715f0ee4877118c76aef64da59f24a871574ac985a",
+      "bytes": 2438
+    },
+    {
+      "file": "include/TrackingAction.hh",
+      "url": "https://raw.githubusercontent.com/Geant4/geant4/v11.3.2/examples/extended/medical/dna/dnaphysics/include/TrackingAction.hh",
+      "git_blob_sha": "145631e131a675573e4e29e11cfc5f772de72418",
+      "sha256": "4624dbfb9735b96ccddb5eb312f9e3d0aa969ecd9a2b1c0d937b5b2e952f76e4",
+      "bytes": 2533
+    },
+    {
+      "file": "plot.C",
+      "url": "https://raw.githubusercontent.com/Geant4/geant4/v11.3.2/examples/extended/medical/dna/dnaphysics/plot.C",
+      "git_blob_sha": "5f24bafeb2cd8dfb9337674874e8c48c1191962b",
+      "sha256": "01e2395146ac43b117274aabe288f68cc5fe356b685e40f8d6e899a376483631",
+      "bytes": 7002
+    },
+    {
+      "file": "plotDeexcitation.C",
+      "url": "https://raw.githubusercontent.com/Geant4/geant4/v11.3.2/examples/extended/medical/dna/dnaphysics/plotDeexcitation.C",
+      "git_blob_sha": "0001bff5a9bd769bb1d82f5911f5a363edb2d932",
+      "sha256": "93e0595f1fce25a0612e0238d2bedcfa2a043e17694122e05a758f641116c7a0",
+      "bytes": 1926
+    },
+    {
+      "file": "src/ActionInitialization.cc",
+      "url": "https://raw.githubusercontent.com/Geant4/geant4/v11.3.2/examples/extended/medical/dna/dnaphysics/src/ActionInitialization.cc",
+      "git_blob_sha": "f58b17882c74e406dd14715943083391c3a52193",
+      "sha256": "d06ffc184c1cd11a3fc587f67d6cf92a442086481b43f971baf9f37adbbbf705",
+      "bytes": 3182
+    },
+    {
+      "file": "src/DetectorConstruction.cc",
+      "url": "https://raw.githubusercontent.com/Geant4/geant4/v11.3.2/examples/extended/medical/dna/dnaphysics/src/DetectorConstruction.cc",
+      "git_blob_sha": "9858744f34aaed683a102647fe33a6c9d763ebe0",
+      "sha256": "c165a186441a73564b7d65509062835a92809e8c9d4c6ed1180bba97df028398",
+      "bytes": 6862
+    },
+    {
+      "file": "src/DetectorMessenger.cc",
+      "url": "https://raw.githubusercontent.com/Geant4/geant4/v11.3.2/examples/extended/medical/dna/dnaphysics/src/DetectorMessenger.cc",
+      "git_blob_sha": "90037865c2f707b38ef95e41500634c7a2e00283",
+      "sha256": "c134ef34a8f547a4e3b1d905889494e5ef978864f4898c17c8e29f4542566303",
+      "bytes": 5787
+    },
+    {
+      "file": "src/PhysicsList.cc",
+      "url": "https://raw.githubusercontent.com/Geant4/geant4/v11.3.2/examples/extended/medical/dna/dnaphysics/src/PhysicsList.cc",
+      "git_blob_sha": "2832a5f49be390ecca26a5e8dba7d428f25e7f02",
+      "sha256": "afcb20e5a7cdc44290d751699b7dc96ce48cf4e96d429923dd178a94345d0e71",
+      "bytes": 7001
+    },
+    {
+      "file": "src/PrimaryGeneratorAction.cc",
+      "url": "https://raw.githubusercontent.com/Geant4/geant4/v11.3.2/examples/extended/medical/dna/dnaphysics/src/PrimaryGeneratorAction.cc",
+      "git_blob_sha": "d79498f4559738288915d09122466f285cab3fb2",
+      "sha256": "a012394f9bfb0ba440c9b710e8b8ecb5e56f30429713707773954016ca987bf4",
+      "bytes": 2850
+    },
+    {
+      "file": "src/RunAction.cc",
+      "url": "https://raw.githubusercontent.com/Geant4/geant4/v11.3.2/examples/extended/medical/dna/dnaphysics/src/RunAction.cc",
+      "git_blob_sha": "d9ed4ceff052c3bd2fbd48bc72be1f1a4179a9fb",
+      "sha256": "22ceccbc7a210e6f3d99c909aa6dc5286a4d6518e89d1ea9186b2048229041cd",
+      "bytes": 5033
+    },
+    {
+      "file": "src/SteppingAction.cc",
+      "url": "https://raw.githubusercontent.com/Geant4/geant4/v11.3.2/examples/extended/medical/dna/dnaphysics/src/SteppingAction.cc",
+      "git_blob_sha": "dec4ff1640d146ea4e256c883bcc9d91d3c0e651",
+      "sha256": "6a885569db7c6e432fed5a4ba78fb3ec20674780289a0f950d7141db9008edd4",
+      "bytes": 12175
+    },
+    {
+      "file": "src/TrackingAction.cc",
+      "url": "https://raw.githubusercontent.com/Geant4/geant4/v11.3.2/examples/extended/medical/dna/dnaphysics/src/TrackingAction.cc",
+      "git_blob_sha": "803095abf0a3f5b657df346c362839bcc02676d1",
+      "sha256": "02fd2bc06a65a3b903a4a650eae2156fbaa607eeb0b73a9ab59e2e9f86ddc4bb",
+      "bytes": 4574
+    },
+    {
+      "file": "vis.mac",
+      "url": "https://raw.githubusercontent.com/Geant4/geant4/v11.3.2/examples/extended/medical/dna/dnaphysics/vis.mac",
+      "git_blob_sha": "c94fdb8975aaf0be603f015d8dfa9fe16860395a",
+      "sha256": "b828c698a72d5165723d308d60741f70c367403d52006fb56b3d3ea37d86ad7a",
+      "bytes": 1867
+    }
+  ],
+  "local_comparison_root": "/home/shigu/g4dna-tutorial/poplar-scoring-work.l4t38ygh/source",
+  "local_files_different_from_official": [
+    "dnaphysics.cc",
+    "include/ActionInitialization.hh",
+    "include/DetectorConstruction.hh",
+    "include/DetectorMessenger.hh",
+    "include/PrimaryGeneratorAction.hh",
+    "src/ActionInitialization.cc",
+    "src/DetectorConstruction.cc",
+    "src/DetectorMessenger.cc",
+    "src/PrimaryGeneratorAction.cc"
+  ]
+}

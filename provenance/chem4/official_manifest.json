@@ -1,0 +1,266 @@
+{
+  "repository": "https://github.com/Geant4/geant4",
+  "reference": "v11.3.2",
+  "tag_object": {
+    "sha": "1b1ba3154688256fe92c44fecc455050f00f64c9",
+    "type": "tag",
+    "url": "https://api.github.com/repos/Geant4/geant4/git/tags/1b1ba3154688256fe92c44fecc455050f00f64c9"
+  },
+  "example_path": "examples/extended/medical/dna/chem4",
+  "files": [
+    {
+      "file": ".README.txt",
+      "url": "https://raw.githubusercontent.com/Geant4/geant4/v11.3.2/examples/extended/medical/dna/chem4/.README.txt",
+      "git_blob_sha": "bb2436eb388d67a675234c933412ead4fb4899ee",
+      "sha256": "3ae251b8fa93cf056f07e68f30f497f032f44514f2a071d409857d6cd133f377",
+      "bytes": 8262
+    },
+    {
+      "file": "CMakeLists.txt",
+      "url": "https://raw.githubusercontent.com/Geant4/geant4/v11.3.2/examples/extended/medical/dna/chem4/CMakeLists.txt",
+      "git_blob_sha": "4be816538e8788c45c609f8c521154fb89e92d27",
+      "sha256": "44deccceba8890384d0f1c61b64f2b2f46ee3c4dc0aa57b37d0fcf0cb138548d",
+      "bytes": 2989
+    },
+    {
+      "file": "GNUmakefile",
+      "url": "https://raw.githubusercontent.com/Geant4/geant4/v11.3.2/examples/extended/medical/dna/chem4/GNUmakefile",
+      "git_blob_sha": "6600536152fdf4273c1f11923b416339b06e8299",
+      "sha256": "adcba3e8679c8460bb1d629e207d8cc4f6e499e4448fac3852a7164d7b1b3ec3",
+      "bytes": 416
+    },
+    {
+      "file": "History",
+      "url": "https://raw.githubusercontent.com/Geant4/geant4/v11.3.2/examples/extended/medical/dna/chem4/History",
+      "git_blob_sha": "6984bd1feab01d85e468c07a3069603d0816101d",
+      "sha256": "c52b912726c887570d9a0953d8941d15217f5dd6d887a86349c609d879d49d94",
+      "bytes": 4289
+    },
+    {
+      "file": "README",
+      "url": "https://raw.githubusercontent.com/Geant4/geant4/v11.3.2/examples/extended/medical/dna/chem4/README",
+      "git_blob_sha": "686180846ef6647cebee886b2ae4e13cf5f1c865",
+      "sha256": "addc3d30fac20850fea2d8ea2403789ba936679816c7776b69e656aa1e86c227",
+      "bytes": 8339
+    },
+    {
+      "file": "beam.in",
+      "url": "https://raw.githubusercontent.com/Geant4/geant4/v11.3.2/examples/extended/medical/dna/chem4/beam.in",
+      "git_blob_sha": "c5143b4094efd82c145bef24ad98c5624b78969f",
+      "sha256": "0998c5e8cb033890c4752f8cd15400dd3516bb654f0eafd099ca9073def6c1d4",
+      "bytes": 2106
+    },
+    {
+      "file": "chem4.cc",
+      "url": "https://raw.githubusercontent.com/Geant4/geant4/v11.3.2/examples/extended/medical/dna/chem4/chem4.cc",
+      "git_blob_sha": "f6dd3d17e72082179902e6dc4e22a6e5e5017d54",
+      "sha256": "91bfa50f1258aaaed8fd19d0222093c91e58a7789b5977c5200a1178a9be8950",
+      "bytes": 10539
+    },
+    {
+      "file": "chem4.out",
+      "url": "https://raw.githubusercontent.com/Geant4/geant4/v11.3.2/examples/extended/medical/dna/chem4/chem4.out",
+      "git_blob_sha": "c811a3467bfbbf6051cb12b755884d318adf7f54",
+      "sha256": "d44c08d1bf8e6de3367ea68f0afe0b51bb2a1f5d2747a1ce8737bf9f52b43610",
+      "bytes": 36783
+    },
+    {
+      "file": "include/ActionInitialization.hh",
+      "url": "https://raw.githubusercontent.com/Geant4/geant4/v11.3.2/examples/extended/medical/dna/chem4/include/ActionInitialization.hh",
+      "git_blob_sha": "f4fb38903fea01aad3ca3d0088df80072b44ffcc",
+      "sha256": "58b51557c70cfe2a3e13d429a7c8e7e4fabc8e2ccf81470a8d1daad0beedc3fe",
+      "bytes": 2670
+    },
+    {
+      "file": "include/CommandLineParser.hh",
+      "url": "https://raw.githubusercontent.com/Geant4/geant4/v11.3.2/examples/extended/medical/dna/chem4/include/CommandLineParser.hh",
+      "git_blob_sha": "cd61773b6dba15245fed669837602ac618f017e0",
+      "sha256": "78756038f9b0b61954a016180c8949d361853aa403ac97558301a452976d796b",
+      "bytes": 4879
+    },
+    {
+      "file": "include/DetectorConstruction.hh",
+      "url": "https://raw.githubusercontent.com/Geant4/geant4/v11.3.2/examples/extended/medical/dna/chem4/include/DetectorConstruction.hh",
+      "git_blob_sha": "d2c62d5973b477d463421e0f89840116fb2dd6b3",
+      "sha256": "6f773d581007e8b4be16a7733ecd28f98f10f248e8342ebaa29764b078b7e41b",
+      "bytes": 2880
+    },
+    {
+      "file": "include/PhysicsList.hh",
+      "url": "https://raw.githubusercontent.com/Geant4/geant4/v11.3.2/examples/extended/medical/dna/chem4/include/PhysicsList.hh",
+      "git_blob_sha": "0876555b890e4b3ee8de101a808b6fc5fc7652ab",
+      "sha256": "3b463c9f793fb7eda102b31392cdf1a45732f05af8c910bed631c1a5d38fd2f0",
+      "bytes": 2768
+    },
+    {
+      "file": "include/PrimaryGeneratorAction.hh",
+      "url": "https://raw.githubusercontent.com/Geant4/geant4/v11.3.2/examples/extended/medical/dna/chem4/include/PrimaryGeneratorAction.hh",
+      "git_blob_sha": "d6373df75c8a6a797fea0324292ee5109c34cb0c",
+      "sha256": "4907e1065fefdb37d489406113ca5e6a98f8cd4fc229bd52e32eb276346104b0",
+      "bytes": 2779
+    },
+    {
+      "file": "include/PrimaryKiller.hh",
+      "url": "https://raw.githubusercontent.com/Geant4/geant4/v11.3.2/examples/extended/medical/dna/chem4/include/PrimaryKiller.hh",
+      "git_blob_sha": "be3fc98331525796aecd45a4241028165c22c406",
+      "sha256": "daa195ff83753036a7fed8ed1acc2439092eaf21b323ff7e896421ab140db693",
+      "bytes": 3882
+    },
+    {
+      "file": "include/Run.hh",
+      "url": "https://raw.githubusercontent.com/Geant4/geant4/v11.3.2/examples/extended/medical/dna/chem4/include/Run.hh",
+      "git_blob_sha": "9fd9bec76b5bf25afa0ddf188de62a7062609744",
+      "sha256": "b2d5abe1fa70f79fbed5e33d5259a29ab413b17948f1a8b00b07c7800ac92be6",
+      "bytes": 2860
+    },
+    {
+      "file": "include/RunAction.hh",
+      "url": "https://raw.githubusercontent.com/Geant4/geant4/v11.3.2/examples/extended/medical/dna/chem4/include/RunAction.hh",
+      "git_blob_sha": "a19b32533f5acf40631a2a8788d1aff682fc3ba9",
+      "sha256": "428c6db36c5b31a7f47d44a4abeb9d303ebab99b21b95010c4bcbcd2ec1ef7d7",
+      "bytes": 2724
+    },
+    {
+      "file": "include/ScoreSpecies.hh",
+      "url": "https://raw.githubusercontent.com/Geant4/geant4/v11.3.2/examples/extended/medical/dna/chem4/include/ScoreSpecies.hh",
+      "git_blob_sha": "394ac0e00180f830e51459911b04ebf16b5561d0",
+      "sha256": "5fe4e92ee74a652cef5d913b0dd107b350da6268076c46c7ce121bfe1156b187",
+      "bytes": 5881
+    },
+    {
+      "file": "include/StackingAction.hh",
+      "url": "https://raw.githubusercontent.com/Geant4/geant4/v11.3.2/examples/extended/medical/dna/chem4/include/StackingAction.hh",
+      "git_blob_sha": "ca188b2d84780020fb66ef2952a4c5e7d6b12491",
+      "sha256": "4ca39ce39bbd2268006641380b12766bfbdbc4114f0eb62cdd3aa32a41b9f03d",
+      "bytes": 2650
+    },
+    {
+      "file": "include/TrackingAction.hh",
+      "url": "https://raw.githubusercontent.com/Geant4/geant4/v11.3.2/examples/extended/medical/dna/chem4/include/TrackingAction.hh",
+      "git_blob_sha": "05d4fa06a4399cc1eb8163ffc93b0f6edbd14fd6",
+      "sha256": "c9f5d972dbfb8f98703b98cb97f85e8946345626ab77b78edb9da0f7cef22eb8",
+      "bytes": 1949
+    },
+    {
+      "file": "plot/CMakeLists.txt",
+      "url": "https://raw.githubusercontent.com/Geant4/geant4/v11.3.2/examples/extended/medical/dna/chem4/plot/CMakeLists.txt",
+      "git_blob_sha": "d9c10acadf2a4036caeae9a11274378ae7b1cc21",
+      "sha256": "5da53120da5a0fe478902a0abf93cce49221ea71a7af638502abcfa86212d256",
+      "bytes": 1806
+    },
+    {
+      "file": "plot/include/CanvasInTab.hh",
+      "url": "https://raw.githubusercontent.com/Geant4/geant4/v11.3.2/examples/extended/medical/dna/chem4/plot/include/CanvasInTab.hh",
+      "git_blob_sha": "6674509139d96fdc10d57afc6e68d9d5466329b1",
+      "sha256": "98662ced2e0d1d766fc33f50fc75c9b0679edfbbc54c72c6e02de22f1a834e05",
+      "bytes": 2264
+    },
+    {
+      "file": "plot/include/CanvasInTab_LinkDef.hh",
+      "url": "https://raw.githubusercontent.com/Geant4/geant4/v11.3.2/examples/extended/medical/dna/chem4/plot/include/CanvasInTab_LinkDef.hh",
+      "git_blob_sha": "0af5d33dd28982a290e4ba4610782e94a3003649",
+      "sha256": "120e9a3fa335911cfcfe16f4171991995e494c4f4e7b3356a0bc76bea2f81b62",
+      "bytes": 1698
+    },
+    {
+      "file": "plot/plotG.cc",
+      "url": "https://raw.githubusercontent.com/Geant4/geant4/v11.3.2/examples/extended/medical/dna/chem4/plot/plotG.cc",
+      "git_blob_sha": "859612a27a55a974dc6ae6d0f94a1a23e9b73462",
+      "sha256": "cd1f700be1f6651b38372cfd11073a43f1ff04554f70f54eb17deeaec4b71971",
+      "bytes": 10543
+    },
+    {
+      "file": "plot/src/CanvasInTab.cc",
+      "url": "https://raw.githubusercontent.com/Geant4/geant4/v11.3.2/examples/extended/medical/dna/chem4/plot/src/CanvasInTab.cc",
+      "git_blob_sha": "3cdfcc6f6468bf26c3de10975db1b8e74574f578",
+      "sha256": "55cff14316316965766ce32e03e38b8454b37243c6ff528a71a8963415df6289",
+      "bytes": 5628
+    },
+    {
+      "file": "src/ActionInitialization.cc",
+      "url": "https://raw.githubusercontent.com/Geant4/geant4/v11.3.2/examples/extended/medical/dna/chem4/src/ActionInitialization.cc",
+      "git_blob_sha": "6798507a4fd8ef3a9140c66541a8e0fa3dba0e53",
+      "sha256": "fc0ed8190b06c1699e2d04e6b1b83439bbb7af8c14d6cabecc31599694240dcf",
+      "bytes": 3593
+    },
+    {
+      "file": "src/CommandLineParser.cc",
+      "url": "https://raw.githubusercontent.com/Geant4/geant4/v11.3.2/examples/extended/medical/dna/chem4/src/CommandLineParser.cc",
+      "git_blob_sha": "645cf29a76befb764444552d42ea507d00392454",
+      "sha256": "6dace44e1eb4bdd3821ae619466f396cddb843e86f7c9b7fa3a9d65a70aed6cb",
+      "bytes": 11017
+    },
+    {
+      "file": "src/DetectorConstruction.cc",
+      "url": "https://raw.githubusercontent.com/Geant4/geant4/v11.3.2/examples/extended/medical/dna/chem4/src/DetectorConstruction.cc",
+      "git_blob_sha": "c97dbd7b44ad591e947f9f0c8f9c6a9302be7b02",
+      "sha256": "352523caef570f66f511a81dbfc895e8d7c6769a9bcefaedabb572cf5addb0e7",
+      "bytes": 5368
+    },
+    {
+      "file": "src/PhysicsList.cc",
+      "url": "https://raw.githubusercontent.com/Geant4/geant4/v11.3.2/examples/extended/medical/dna/chem4/src/PhysicsList.cc",
+      "git_blob_sha": "203dad49a61591ba1cb6d59a6f89c89eace4064b",
+      "sha256": "2676b7a79c9e2eb88a2a4f64554770026ee35ca3ca72264b4ba183038fd1e9ac",
+      "bytes": 6824
+    },
+    {
+      "file": "src/PrimaryGeneratorAction.cc",
+      "url": "https://raw.githubusercontent.com/Geant4/geant4/v11.3.2/examples/extended/medical/dna/chem4/src/PrimaryGeneratorAction.cc",
+      "git_blob_sha": "6c4992183b7a351198757e1899fc16997b6d06ea",
+      "sha256": "ec93de1cb82d686aabbb0313d218700d91542d68eda8ae55e0025e9c631d15e3",
+      "bytes": 3814
+    },
+    {
+      "file": "src/PrimaryKiller.cc",
+      "url": "https://raw.githubusercontent.com/Geant4/geant4/v11.3.2/examples/extended/medical/dna/chem4/src/PrimaryKiller.cc",
+      "git_blob_sha": "b843e9298040f66a932a0dc7b26f76dcdef21245",
+      "sha256": "109bded2f4963ec08bd3b57bc2e2588ee15c2b26eeea47f5ceaa8020d8e38110",
+      "bytes": 5932
+    },
+    {
+      "file": "src/Run.cc",
+      "url": "https://raw.githubusercontent.com/Geant4/geant4/v11.3.2/examples/extended/medical/dna/chem4/src/Run.cc",
+      "git_blob_sha": "5a697409fcaceefed62c90250a61365d6f63b92f",
+      "sha256": "b96a57c240aa1632bdad79ad4f848e93f3c89060ad5d3b58ad22c52eceda1e50",
+      "bytes": 4307
+    },
+    {
+      "file": "src/RunAction.cc",
+      "url": "https://raw.githubusercontent.com/Geant4/geant4/v11.3.2/examples/extended/medical/dna/chem4/src/RunAction.cc",
+      "git_blob_sha": "4a90e3ce183c1da552026d640910629cb728a56f",
+      "sha256": "0ec964e29f02b947a6b5d338c7cf5805fed1552709adb39fea9d4aed15eca889",
+      "bytes": 4275
+    },
+    {
+      "file": "src/ScoreSpecies.cc",
+      "url": "https://raw.githubusercontent.com/Geant4/geant4/v11.3.2/examples/extended/medical/dna/chem4/src/ScoreSpecies.cc",
+      "git_blob_sha": "c27adc4de9d670c9175202332f540d71171a1291",
+      "sha256": "5e2a841f2d8ec55380350bda9402306c3f4edebbbe2b286f53cc944657af5cd4",
+      "bytes": 14532
+    },
+    {
+      "file": "src/StackingAction.cc",
+      "url": "https://raw.githubusercontent.com/Geant4/geant4/v11.3.2/examples/extended/medical/dna/chem4/src/StackingAction.cc",
+      "git_blob_sha": "3f3a6087e2e78099a502e08314df090d95cb0586",
+      "sha256": "4b0edeabd30da855c1d7fa1012adbf89e501cb35f48c9cd71b4f685a2fa9d73a",
+      "bytes": 2868
+    },
+    {
+      "file": "src/TrackingAction.cc",
+      "url": "https://raw.githubusercontent.com/Geant4/geant4/v11.3.2/examples/extended/medical/dna/chem4/src/TrackingAction.cc",
+      "git_blob_sha": "03dedbf2222b1a57897e8350d34d7f1fe2fabdcb",
+      "sha256": "5ef226cb3d752b2ebe2c11e045ffc5bd9c20a0693a9c795dc52df3d35fb642c4",
+      "bytes": 2091
+    },
+    {
+      "file": "vis.mac",
+      "url": "https://raw.githubusercontent.com/Geant4/geant4/v11.3.2/examples/extended/medical/dna/chem4/vis.mac",
+      "git_blob_sha": "9a564fd8050a841b3403ed94ac67a278f08438ed",
+      "sha256": "2d83d1890bcc408b1152a6ab82f56f0853e62123bf5751a781c6c44ccf0d3956",
+      "bytes": 2328
+    }
+  ],
+  "local_comparison_root": "/home/shigu/Applications/GEANT4/geant4-v11.3.2/examples/extended/medical/dna/chem4",
+  "local_files_different_from_official": []
+}

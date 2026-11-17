@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+# Shortcut for the reorganized Geant4Apps project in this WSL installation.
+set -euo pipefail
+exec bash /mnt/d/MSci_Project/LhARA_python/Geant4Apps/run.sh "$@"

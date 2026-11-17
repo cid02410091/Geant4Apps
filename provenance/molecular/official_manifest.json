@@ -1,0 +1,728 @@
+{
+  "repository": "https://github.com/Geant4/geant4",
+  "reference": "v11.3.2",
+  "tag_object": {
+    "sha": "1b1ba3154688256fe92c44fecc455050f00f64c9",
+    "type": "tag",
+    "url": "https://api.github.com/repos/Geant4/geant4/git/tags/1b1ba3154688256fe92c44fecc455050f00f64c9"
+  },
+  "example_path": "examples/advanced/dna/moleculardna",
+  "files": [
+    {
+      "file": ".README.txt",
+      "url": "https://raw.githubusercontent.com/Geant4/geant4/v11.3.2/examples/advanced/dna/moleculardna/.README.txt",
+      "git_blob_sha": "50451c86564a00c9626d09ed656fd99e201a2ecd",
+      "sha256": "2b82f7851cf3839faa69876425b0cc11c0c8ef60c88e44c7bc4cf668a78bdfde",
+      "bytes": 10141
+    },
+    {
+      "file": "CMakeLists.txt",
+      "url": "https://raw.githubusercontent.com/Geant4/geant4/v11.3.2/examples/advanced/dna/moleculardna/CMakeLists.txt",
+      "git_blob_sha": "98ad62571d30968d9458e33b81e6920d5a2fed26",
+      "sha256": "32d2ae399d61469cee1d1b578e4cebed54d4545aa51cb6ef6a54b186e6a252f6",
+      "bytes": 4144
+    },
+    {
+      "file": "History",
+      "url": "https://raw.githubusercontent.com/Geant4/geant4/v11.3.2/examples/advanced/dna/moleculardna/History",
+      "git_blob_sha": "ac1852b1b59dd0aef0ed976b02a9f8b0ae793ff0",
+      "sha256": "1f643b51e88bed3fe88dbc74e679c680bca2221b3d3af529816b4780a9c278e4",
+      "bytes": 4634
+    },
+    {
+      "file": "README",
+      "url": "https://raw.githubusercontent.com/Geant4/geant4/v11.3.2/examples/advanced/dna/moleculardna/README",
+      "git_blob_sha": "5ce85b71313011269fd505932af81336f228d9cb",
+      "sha256": "d663d51a609cab1e51b82d24d9c5843c689ee3009940ed063db8971c42d7ad3b",
+      "bytes": 10773
+    },
+    {
+      "file": "createSDD.py",
+      "url": "https://raw.githubusercontent.com/Geant4/geant4/v11.3.2/examples/advanced/dna/moleculardna/createSDD.py",
+      "git_blob_sha": "fd567afa56a169c47026ce674071c76034f79924",
+      "sha256": "65eae3e6a60e597b46e9c8450b4be801326b2e6551ec8275b0992365ec5c00ab",
+      "bytes": 12349
+    },
+    {
+      "file": "cylinders.C",
+      "url": "https://raw.githubusercontent.com/Geant4/geant4/v11.3.2/examples/advanced/dna/moleculardna/cylinders.C",
+      "git_blob_sha": "d30c670c3951fecc846d0b76ca2bf210a184cbea",
+      "sha256": "e38611486183d5ab65cc997191188c3d5762053065241970eb566ed289046237",
+      "bytes": 8201
+    },
+    {
+      "file": "cylinders.mac",
+      "url": "https://raw.githubusercontent.com/Geant4/geant4/v11.3.2/examples/advanced/dna/moleculardna/cylinders.mac",
+      "git_blob_sha": "2042e4771648b7b8c690205931656802c8d61434",
+      "sha256": "174737fd3ce945b024a00f7c112e659808ebb4d5dca5c52a5a94673331145bee",
+      "bytes": 3488
+    },
+    {
+      "file": "ecoli.C",
+      "url": "https://raw.githubusercontent.com/Geant4/geant4/v11.3.2/examples/advanced/dna/moleculardna/ecoli.C",
+      "git_blob_sha": "e9fdac714c3a9a766f5eb2b5892700adc1d22f12",
+      "sha256": "ab2d7112c2c77b7d40c51153e8add3f910b31355eeafe844688525703511429c",
+      "bytes": 23384
+    },
+    {
+      "file": "ecoli.mac",
+      "url": "https://raw.githubusercontent.com/Geant4/geant4/v11.3.2/examples/advanced/dna/moleculardna/ecoli.mac",
+      "git_blob_sha": "4e1f86370e68ddcb83d9e9cbe54188ba00e51f74",
+      "sha256": "a5f28de81a95052d64d38f0c5374b4e4c504ded17d42f9643d80dc267ee68f0c",
+      "bytes": 2823
+    },
+    {
+      "file": "human_cell.C",
+      "url": "https://raw.githubusercontent.com/Geant4/geant4/v11.3.2/examples/advanced/dna/moleculardna/human_cell.C",
+      "git_blob_sha": "571a55326f7221e8969ab1dfb336ce0baf0ad086",
+      "sha256": "2736b3f087a8f7d184aeed188e07c7dc377d231da1020696f27cac3a1540b4e6",
+      "bytes": 23394
+    },
+    {
+      "file": "human_cell.mac",
+      "url": "https://raw.githubusercontent.com/Geant4/geant4/v11.3.2/examples/advanced/dna/moleculardna/human_cell.mac",
+      "git_blob_sha": "404219d81b9c618ec14c53cf75a152fe93d690ce",
+      "sha256": "2fdf4fd0f93be2b06813dbae0f9a9b3bae86cf5a407eb08535ce4d9818b0b2e7",
+      "bytes": 2780
+    },
+    {
+      "file": "human_cell_HTB177.mac",
+      "url": "https://raw.githubusercontent.com/Geant4/geant4/v11.3.2/examples/advanced/dna/moleculardna/human_cell_HTB177.mac",
+      "git_blob_sha": "f628820c2ceced1367f9acc7a7116382da54c6bf",
+      "sha256": "e930efb5644173a0f4baf5fea4b71746b11a9f2b5c493cfdcb98319120559400",
+      "bytes": 3339
+    },
+    {
+      "file": "human_cell_MCF7.mac",
+      "url": "https://raw.githubusercontent.com/Geant4/geant4/v11.3.2/examples/advanced/dna/moleculardna/human_cell_MCF7.mac",
+      "git_blob_sha": "f24f6bc28833a9ef6da67fdaf62c99aa9e29b218",
+      "sha256": "cc242f3332b1b7a26d692ed70e3fb74675042126b4a2ecdb79cd7195b814c0aa",
+      "bytes": 3334
+    },
+    {
+      "file": "human_cell_alphas.C",
+      "url": "https://raw.githubusercontent.com/Geant4/geant4/v11.3.2/examples/advanced/dna/moleculardna/human_cell_alphas.C",
+      "git_blob_sha": "a72988fd9caba134a94a375acb009df19dc1141f",
+      "sha256": "6703a64ce75d45b21d4f2195c4b3afae3ebd7db90ef742fcea296d55ecbe3194",
+      "bytes": 23230
+    },
+    {
+      "file": "human_cell_chromosomes.C",
+      "url": "https://raw.githubusercontent.com/Geant4/geant4/v11.3.2/examples/advanced/dna/moleculardna/human_cell_chromosomes.C",
+      "git_blob_sha": "f55791ee7aeb6a6224e1ea02c4147dbcff576d56",
+      "sha256": "6c72ccfd9b479b7834fc1a1bdd570e2d347a52c0946b013796802fa8ef8a2670",
+      "bytes": 23396
+    },
+    {
+      "file": "human_cell_chromosomes.mac",
+      "url": "https://raw.githubusercontent.com/Geant4/geant4/v11.3.2/examples/advanced/dna/moleculardna/human_cell_chromosomes.mac",
+      "git_blob_sha": "c7825bfc2021414f0edd521703bdb9bac945cb5a",
+      "sha256": "9d94c65b6f605701f1b249b275ca8797aa755dc79d7e642c810c17af024d1e86",
+      "bytes": 2816
+    },
+    {
+      "file": "human_cell_chromosomes.py",
+      "url": "https://raw.githubusercontent.com/Geant4/geant4/v11.3.2/examples/advanced/dna/moleculardna/human_cell_chromosomes.py",
+      "git_blob_sha": "ace4cdeb795f6db487b1194576b16032963d1124",
+      "sha256": "a91bcf9a8227a3f4508825345253d787a12851be23343a64fea8ff4237188938",
+      "bytes": 7379
+    },
+    {
+      "file": "include/ActionInitialization.hh",
+      "url": "https://raw.githubusercontent.com/Geant4/geant4/v11.3.2/examples/advanced/dna/moleculardna/include/ActionInitialization.hh",
+      "git_blob_sha": "cd4dba881e30807b3ebee07664f0d666c0044403",
+      "sha256": "4d44376638899484a06553fba61792ea3d689a29ccd4d09aba3d4eb74cab0f44",
+      "bytes": 2353
+    },
+    {
+      "file": "include/AnalysisManager.hh",
+      "url": "https://raw.githubusercontent.com/Geant4/geant4/v11.3.2/examples/advanced/dna/moleculardna/include/AnalysisManager.hh",
+      "git_blob_sha": "5f95f30c73276e5ed298755d54f0d3c36263c78e",
+      "sha256": "5b3a5898ef6f9e21c84ece33e98ab51392549b4fc01105b77d094299a6f18053",
+      "bytes": 7556
+    },
+    {
+      "file": "include/AnalysisMessenger.hh",
+      "url": "https://raw.githubusercontent.com/Geant4/geant4/v11.3.2/examples/advanced/dna/moleculardna/include/AnalysisMessenger.hh",
+      "git_blob_sha": "c6c98c453893f251b750284d7d91e8feb1248016",
+      "sha256": "10fc7841272f1398d1fa16cf87d696f501ad3404789a3fe1090498e8ab078ad4",
+      "bytes": 2981
+    },
+    {
+      "file": "include/BoxChromosome.hh",
+      "url": "https://raw.githubusercontent.com/Geant4/geant4/v11.3.2/examples/advanced/dna/moleculardna/include/BoxChromosome.hh",
+      "git_blob_sha": "a4590e640082249d437d43929bb5aa42ba785b96",
+      "sha256": "b8a7274a951ee2df68b19a3c42ea4b7a31d8a54f5e9517a6200e8ea55e7faacd",
+      "bytes": 3698
+    },
+    {
+      "file": "include/ChemistryList.hh",
+      "url": "https://raw.githubusercontent.com/Geant4/geant4/v11.3.2/examples/advanced/dna/moleculardna/include/ChemistryList.hh",
+      "git_blob_sha": "0e748f70e7aa383ce56421cf7b7503a9a5b21cbd",
+      "sha256": "c9bd8958b94123d959c5b6eeed4201b279b565603d1bca4e41864920a86f8419",
+      "bytes": 2538
+    },
+    {
+      "file": "include/ChromosomeFactory.hh",
+      "url": "https://raw.githubusercontent.com/Geant4/geant4/v11.3.2/examples/advanced/dna/moleculardna/include/ChromosomeFactory.hh",
+      "git_blob_sha": "2dfbdb07cbfb64eaaf6afd529d63cc52490b1c1b",
+      "sha256": "8e83d8ca975a18446473bc2f616cd80904bb2c8a86ae0ba02b5a91787805142e",
+      "bytes": 2224
+    },
+    {
+      "file": "include/ChromosomeHit.hh",
+      "url": "https://raw.githubusercontent.com/Geant4/geant4/v11.3.2/examples/advanced/dna/moleculardna/include/ChromosomeHit.hh",
+      "git_blob_sha": "08754079aea92616e1d77be0189a0ba39b79a7d9",
+      "sha256": "8899334e44e7b6f1be80dd07cadf92ff44a8eb685c2d30a48fd0ff70efcf9901",
+      "bytes": 3444
+    },
+    {
+      "file": "include/ChromosomeMapper.hh",
+      "url": "https://raw.githubusercontent.com/Geant4/geant4/v11.3.2/examples/advanced/dna/moleculardna/include/ChromosomeMapper.hh",
+      "git_blob_sha": "28c7cb575f104e94e0980ff884e6a1f4ea152479",
+      "sha256": "fba4f144c19dd2ff08d57fe2d45a97fa7a7f6478bb1e05e63a460f862f8a3bf5",
+      "bytes": 2923
+    },
+    {
+      "file": "include/ChromosomeMessenger.hh",
+      "url": "https://raw.githubusercontent.com/Geant4/geant4/v11.3.2/examples/advanced/dna/moleculardna/include/ChromosomeMessenger.hh",
+      "git_blob_sha": "dc7ad5b4b69d136d9734330a3e75bc708af71e3e",
+      "sha256": "bfa62995f174a6779ae54dcad400f46a1961be2c19dd6e047b8ba1cf821e8bc1",
+      "bytes": 2596
+    },
+    {
+      "file": "include/CylindricalChromosome.hh",
+      "url": "https://raw.githubusercontent.com/Geant4/geant4/v11.3.2/examples/advanced/dna/moleculardna/include/CylindricalChromosome.hh",
+      "git_blob_sha": "749238cf0c5950de76e21e8a59ea7aab8efca677",
+      "sha256": "0ab4d59822f5cab61e95d353005db0e7575e745bc3bd82973afd867fbc3c1743",
+      "bytes": 3659
+    },
+    {
+      "file": "include/DNAGeometry.hh",
+      "url": "https://raw.githubusercontent.com/Geant4/geant4/v11.3.2/examples/advanced/dna/moleculardna/include/DNAGeometry.hh",
+      "git_blob_sha": "48f8940e1adfc5843635cf2cd76c634fa063b949",
+      "sha256": "04bb7ce51922906093c0f125851586e9bb567de1fb65cf38027db0e51bafb451",
+      "bytes": 12702
+    },
+    {
+      "file": "include/DNAGeometryMessenger.hh",
+      "url": "https://raw.githubusercontent.com/Geant4/geant4/v11.3.2/examples/advanced/dna/moleculardna/include/DNAGeometryMessenger.hh",
+      "git_blob_sha": "00a9961dbad3f1af7031ce3aa0737a03a757fa7f",
+      "sha256": "5d51f44cbeb1858df37d9a85da1c7082e3856a038417765e77e189c900feb225",
+      "bytes": 4145
+    },
+    {
+      "file": "include/DNAHashing.hh",
+      "url": "https://raw.githubusercontent.com/Geant4/geant4/v11.3.2/examples/advanced/dna/moleculardna/include/DNAHashing.hh",
+      "git_blob_sha": "aab8266b5edc116c77dbbfe8c5861aa6e1bcfe3a",
+      "sha256": "cde4fc35c6d743e63d38a54d11b6b07f2433cbeb0747109953ac76af06ca9d99",
+      "bytes": 8528
+    },
+    {
+      "file": "include/DNAHit.hh",
+      "url": "https://raw.githubusercontent.com/Geant4/geant4/v11.3.2/examples/advanced/dna/moleculardna/include/DNAHit.hh",
+      "git_blob_sha": "f37e43055bb62fa90094c61dd5889af7bc9912f1",
+      "sha256": "161928abf100cda57d2de68d22b27c6e7efc9a9d42ac0ee30af99cd8fbe0920e",
+      "bytes": 7362
+    },
+    {
+      "file": "include/DNAWorld.hh",
+      "url": "https://raw.githubusercontent.com/Geant4/geant4/v11.3.2/examples/advanced/dna/moleculardna/include/DNAWorld.hh",
+      "git_blob_sha": "2827d312878b6d1e0bb98e0014ab61d77d657eb4",
+      "sha256": "d9092377c2840021ec44021eb7a56d112db2889923e113225f779f64406ce302",
+      "bytes": 3287
+    },
+    {
+      "file": "include/DamageModel.hh",
+      "url": "https://raw.githubusercontent.com/Geant4/geant4/v11.3.2/examples/advanced/dna/moleculardna/include/DamageModel.hh",
+      "git_blob_sha": "b413ecede444daf85d9018ef2afd764d99398a1f",
+      "sha256": "dd54c1d16c74b88655f70ea6a7714efae03bd8c82cd026673a37cf261b2cc95e",
+      "bytes": 4773
+    },
+    {
+      "file": "include/DamageModelMessenger.hh",
+      "url": "https://raw.githubusercontent.com/Geant4/geant4/v11.3.2/examples/advanced/dna/moleculardna/include/DamageModelMessenger.hh",
+      "git_blob_sha": "70b96d5133ee5960445d62cf3703263b7470050e",
+      "sha256": "2e743d53708d11e758e61f629f2591b38ef6eb637b7df206545fb3f5da0d5e18",
+      "bytes": 3217
+    },
+    {
+      "file": "include/DetectorConstruction.hh",
+      "url": "https://raw.githubusercontent.com/Geant4/geant4/v11.3.2/examples/advanced/dna/moleculardna/include/DetectorConstruction.hh",
+      "git_blob_sha": "e6a094ccb2abe5defefd3af9a1ce162e9b686ad4",
+      "sha256": "443204778acbf0b6484ec2d665caadc5d0ff64e18deb8d5a4a7d553ff756d42d",
+      "bytes": 3322
+    },
+    {
+      "file": "include/DetectorMessenger.hh",
+      "url": "https://raw.githubusercontent.com/Geant4/geant4/v11.3.2/examples/advanced/dna/moleculardna/include/DetectorMessenger.hh",
+      "git_blob_sha": "83672448bd8d70181f7d60dfc15579b9809d9709",
+      "sha256": "355c616b8c6c66246508725f72acb9cd3d9567cb157f50547b8f9b9fd6c00b92",
+      "bytes": 2546
+    },
+    {
+      "file": "include/EllipticalChromosome.hh",
+      "url": "https://raw.githubusercontent.com/Geant4/geant4/v11.3.2/examples/advanced/dna/moleculardna/include/EllipticalChromosome.hh",
+      "git_blob_sha": "2902bb708afd59bee2c61f6c17e238a88ec63580",
+      "sha256": "812f70c7c2387a03ad14cd3553031ebafd0b123279b8a4ed766da5d3a19244d7",
+      "bytes": 3756
+    },
+    {
+      "file": "include/EventAction.hh",
+      "url": "https://raw.githubusercontent.com/Geant4/geant4/v11.3.2/examples/advanced/dna/moleculardna/include/EventAction.hh",
+      "git_blob_sha": "5f24ad543976b04a9e035c670b6bc76b9fe59ef3",
+      "sha256": "064f55e7a9922a1a7acf0d511be2ee8680bd77c3a7a47e90439b1e88dc93fa99",
+      "bytes": 3208
+    },
+    {
+      "file": "include/IRTDamageReactionModel.hh",
+      "url": "https://raw.githubusercontent.com/Geant4/geant4/v11.3.2/examples/advanced/dna/moleculardna/include/IRTDamageReactionModel.hh",
+      "git_blob_sha": "18e6341650c7a92f4de7380a0397b1461a8da424",
+      "sha256": "03316e088b35ddf3db50e3bc282340217d1a7b711d5155b74275e3b999d6fa9d",
+      "bytes": 3409
+    },
+    {
+      "file": "include/MoleculeList.hh",
+      "url": "https://raw.githubusercontent.com/Geant4/geant4/v11.3.2/examples/advanced/dna/moleculardna/include/MoleculeList.hh",
+      "git_blob_sha": "a7a7cf0c6916457b5a7db651aa6f5f5dd9516655",
+      "sha256": "b8b00055682c3603c92545452a0eda490d55c1055f5444d649932b527978cc12",
+      "bytes": 5800
+    },
+    {
+      "file": "include/OctreeNode.hh",
+      "url": "https://raw.githubusercontent.com/Geant4/geant4/v11.3.2/examples/advanced/dna/moleculardna/include/OctreeNode.hh",
+      "git_blob_sha": "e6a70dad1f3dfe28619ae66a7f0f44f438116d24",
+      "sha256": "73a088690acf901841f6c48c7d18b0dff3c63ab2eaa6d0feafa54a04798bc2a7",
+      "bytes": 3935
+    },
+    {
+      "file": "include/ParallelWorldPhysics.hh",
+      "url": "https://raw.githubusercontent.com/Geant4/geant4/v11.3.2/examples/advanced/dna/moleculardna/include/ParallelWorldPhysics.hh",
+      "git_blob_sha": "f0d8472fc1cebe431990b611fc4d01b13a9c3b6e",
+      "sha256": "ffaa334de2a1e6b6b0c2c1203643000606faac096422ff8fb610c1987cbc421c",
+      "bytes": 2578
+    },
+    {
+      "file": "include/PhysicsList.hh",
+      "url": "https://raw.githubusercontent.com/Geant4/geant4/v11.3.2/examples/advanced/dna/moleculardna/include/PhysicsList.hh",
+      "git_blob_sha": "65d1ba0361839b73dac5aaaab3a405c770dcd329",
+      "sha256": "454f2f5f30f0c59850c53ab97733f6696cca024739fe00c3bfa2c91e55e45eb4",
+      "bytes": 2240
+    },
+    {
+      "file": "include/PlacementVolumeInfo.hh",
+      "url": "https://raw.githubusercontent.com/Geant4/geant4/v11.3.2/examples/advanced/dna/moleculardna/include/PlacementVolumeInfo.hh",
+      "git_blob_sha": "a21486aec03549b369ce3f0a357dcf5c32f61127",
+      "sha256": "fd6fbe5c76f8249ccdadaa46c2f23ef7b4e9563d5cedfa852c23db56a2733cc1",
+      "bytes": 3071
+    },
+    {
+      "file": "include/PrimaryGeneratorAction.hh",
+      "url": "https://raw.githubusercontent.com/Geant4/geant4/v11.3.2/examples/advanced/dna/moleculardna/include/PrimaryGeneratorAction.hh",
+      "git_blob_sha": "d04b09a121c75ac8eecde10988768f8152f9593c",
+      "sha256": "2da558e14f15cd961ca0635864fcf9fdb5510d963ccd4a78673bb04d32ec735b",
+      "bytes": 2928
+    },
+    {
+      "file": "include/PrimaryGeneratorMessenger.hh",
+      "url": "https://raw.githubusercontent.com/Geant4/geant4/v11.3.2/examples/advanced/dna/moleculardna/include/PrimaryGeneratorMessenger.hh",
+      "git_blob_sha": "27185791ef8a94cee0af552123cd246225536342",
+      "sha256": "19fc9c106df2e0557368f301c5cd67d6016d1363d9bee0faeaf59fa453195980",
+      "bytes": 2576
+    },
+    {
+      "file": "include/PrimaryGeneratorSource.hh",
+      "url": "https://raw.githubusercontent.com/Geant4/geant4/v11.3.2/examples/advanced/dna/moleculardna/include/PrimaryGeneratorSource.hh",
+      "git_blob_sha": "2fff5b089bf7893d17ff7f8ce5a5bd869bb4fa96",
+      "sha256": "75125b332749471302bb5c1040849b68d2fda6e6c962ca741b083bd740e487a6",
+      "bytes": 4635
+    },
+    {
+      "file": "include/PrimaryGeneratorSourceGRASCSV.hh",
+      "url": "https://raw.githubusercontent.com/Geant4/geant4/v11.3.2/examples/advanced/dna/moleculardna/include/PrimaryGeneratorSourceGRASCSV.hh",
+      "git_blob_sha": "6ead759159af20bd61c17848ac65f1bbf83a7a76",
+      "sha256": "a80ccb79cf96520d43059e178f7b008f84737d86ddd74b83f0ce086e568b29f7",
+      "bytes": 2856
+    },
+    {
+      "file": "include/RodChromosome.hh",
+      "url": "https://raw.githubusercontent.com/Geant4/geant4/v11.3.2/examples/advanced/dna/moleculardna/include/RodChromosome.hh",
+      "git_blob_sha": "bf0f91dbce97e91c2b73b2631c2422bd3cc48b0f",
+      "sha256": "505cfdb8a0943f185aed832790167d2762930574729d701b0a4bc34884eda290",
+      "bytes": 3586
+    },
+    {
+      "file": "include/RunAction.hh",
+      "url": "https://raw.githubusercontent.com/Geant4/geant4/v11.3.2/examples/advanced/dna/moleculardna/include/RunAction.hh",
+      "git_blob_sha": "20f5f41b192100b7c9c1067b8e02c2815ca6a45a",
+      "sha256": "c11fe7a939eb7e5a3bbaa8987f9ab7fd92008799d28afbb06f210e907eaa051b",
+      "bytes": 2456
+    },
+    {
+      "file": "include/SphericalChromosome.hh",
+      "url": "https://raw.githubusercontent.com/Geant4/geant4/v11.3.2/examples/advanced/dna/moleculardna/include/SphericalChromosome.hh",
+      "git_blob_sha": "53dc1adefe2faa0d70999f11c928fc69aa45f724",
+      "sha256": "12d89c8f9538a88923c1b2b190ca42b7b898a5a5b484e5438f94a63d65cd6350",
+      "bytes": 3182
+    },
+    {
+      "file": "include/StackingAction.hh",
+      "url": "https://raw.githubusercontent.com/Geant4/geant4/v11.3.2/examples/advanced/dna/moleculardna/include/StackingAction.hh",
+      "git_blob_sha": "eb9b4ff55e1c48cca94149c891e0a8b6475d3c8d",
+      "sha256": "afcdf7a3fd22485ace90ad16ce532707255b48cbf256cccf7680ff8ef6312201",
+      "bytes": 2250
+    },
+    {
+      "file": "include/SteppingAction.hh",
+      "url": "https://raw.githubusercontent.com/Geant4/geant4/v11.3.2/examples/advanced/dna/moleculardna/include/SteppingAction.hh",
+      "git_blob_sha": "488a12193acdb43428a06c0741623bac1689cd74",
+      "sha256": "7aafa73a3dff642911df266d7c0e979ca9dc1b562d9e2bdc27dbd1edcee3b1eb",
+      "bytes": 2759
+    },
+    {
+      "file": "include/TimeStepAction.hh",
+      "url": "https://raw.githubusercontent.com/Geant4/geant4/v11.3.2/examples/advanced/dna/moleculardna/include/TimeStepAction.hh",
+      "git_blob_sha": "625b2c061a651e2a445ce0743a31389378d9f2a0",
+      "sha256": "1b276eddfbe677b756676a46afa7eef6ff29ac716f104f323c0f5df69fcfe371",
+      "bytes": 2614
+    },
+    {
+      "file": "include/UtilityFunctions.hh",
+      "url": "https://raw.githubusercontent.com/Geant4/geant4/v11.3.2/examples/advanced/dna/moleculardna/include/UtilityFunctions.hh",
+      "git_blob_sha": "735583c4858fc72573a1225b34a529a981b646f7",
+      "sha256": "e150be1e6111c552ad64b0bc625d237f22bc3d83c830a26cbf66fe5daa4149b9",
+      "bytes": 3215
+    },
+    {
+      "file": "include/VirtualChromosome.hh",
+      "url": "https://raw.githubusercontent.com/Geant4/geant4/v11.3.2/examples/advanced/dna/moleculardna/include/VirtualChromosome.hh",
+      "git_blob_sha": "0f3f6860852874e55424510cad99bfc8484b4008",
+      "sha256": "643062db3f2c41c184eb4df3475a99120e0af790eefe4a3b64bc86633302e04a",
+      "bytes": 2544
+    },
+    {
+      "file": "molecular.cc",
+      "url": "https://raw.githubusercontent.com/Geant4/geant4/v11.3.2/examples/advanced/dna/moleculardna/molecular.cc",
+      "git_blob_sha": "a757a2e23cd4eba9ac8f0e64fde2f96e6bd071ab",
+      "sha256": "6b8329720f2f62392e9e78d8d27fc05d99991b009450700a243ce52c0fc11218",
+      "bytes": 4263
+    },
+    {
+      "file": "moleculardna.out",
+      "url": "https://raw.githubusercontent.com/Geant4/geant4/v11.3.2/examples/advanced/dna/moleculardna/moleculardna.out",
+      "git_blob_sha": "28089e696e16b59ca7e756deb5c61f69d8b3436d",
+      "sha256": "a4915665d895f0c97fbae93050d22cede84eb8cfc3368093c1b23be31685f338",
+      "bytes": 35421
+    },
+    {
+      "file": "phase_space/phase_space.csv",
+      "url": "https://raw.githubusercontent.com/Geant4/geant4/v11.3.2/examples/advanced/dna/moleculardna/phase_space/phase_space.csv",
+      "git_blob_sha": "f2bcf116156693b194b81e58896d8a8188c498cc",
+      "sha256": "ff55a92ded8a729158e67ba803cc5462bb7f1d1b0121c737888c8a6c78651d49",
+      "bytes": 13206
+    },
+    {
+      "file": "phase_space/phase_space_test.mac",
+      "url": "https://raw.githubusercontent.com/Geant4/geant4/v11.3.2/examples/advanced/dna/moleculardna/phase_space/phase_space_test.mac",
+      "git_blob_sha": "5b00a432cd666d246b1f29742f9d697ba124baaf",
+      "sha256": "b46141388d8881c4251963fe80214cb999c7d7a721cddc5bcfbf5323a89cee56",
+      "bytes": 1800
+    },
+    {
+      "file": "plasmid.C",
+      "url": "https://raw.githubusercontent.com/Geant4/geant4/v11.3.2/examples/advanced/dna/moleculardna/plasmid.C",
+      "git_blob_sha": "1d41e9915390e5f0470f6fa31fd98309d780db3f",
+      "sha256": "1f26a3ca9423aaa012310c03c2c731e9c9e6ffa957afcda1bb54933ad671ffe0",
+      "bytes": 22063
+    },
+    {
+      "file": "plasmid.mac",
+      "url": "https://raw.githubusercontent.com/Geant4/geant4/v11.3.2/examples/advanced/dna/moleculardna/plasmid.mac",
+      "git_blob_sha": "50cdf38903b1c1e1d21974afeca50f5b243f6a86",
+      "sha256": "40d7da5623b166c980a81b702b235f68a09fd3a5762619f13b5517683a26b01d",
+      "bytes": 3431
+    },
+    {
+      "file": "repair_survival_models/molecularDNArepair.py",
+      "url": "https://raw.githubusercontent.com/Geant4/geant4/v11.3.2/examples/advanced/dna/moleculardna/repair_survival_models/molecularDNArepair.py",
+      "git_blob_sha": "98e5ea2d49088f2ffb0948cfa0e4b5873ac1dfa3",
+      "sha256": "0508f1dfcadd8ffa87934511a05bfb3aa8a38b06a4e23d8f3e1d0a3414f85887",
+      "bytes": 12900
+    },
+    {
+      "file": "repair_survival_models/molecularDNAsurvival.py",
+      "url": "https://raw.githubusercontent.com/Geant4/geant4/v11.3.2/examples/advanced/dna/moleculardna/repair_survival_models/molecularDNAsurvival.py",
+      "git_blob_sha": "26f13cd74d8e90e702180d4d77df202e408b7344",
+      "sha256": "75356b8b69662c93594f40a8dbb3be30698e9f1f01903688ea9170d979a25300",
+      "bytes": 7241
+    },
+    {
+      "file": "src/ActionInitialization.cc",
+      "url": "https://raw.githubusercontent.com/Geant4/geant4/v11.3.2/examples/advanced/dna/moleculardna/src/ActionInitialization.cc",
+      "git_blob_sha": "4fa2e7d8c6dee7ec69f2e1fd61beeb150d411413",
+      "sha256": "0452f2d542d15aba440eb6fb6450f147ece1e226f87d4be9e628def51a6afefe",
+      "bytes": 3032
+    },
+    {
+      "file": "src/AnalysisManager.cc",
+      "url": "https://raw.githubusercontent.com/Geant4/geant4/v11.3.2/examples/advanced/dna/moleculardna/src/AnalysisManager.cc",
+      "git_blob_sha": "b64fe7f1d92090eaa5ad6052d3bc7f30dc7d2e56",
+      "sha256": "282b89fa1297ba8cdf13d10406bab2b07a943390a3e85fe1dd2a27e80b8ab863",
+      "bytes": 75666
+    },
+    {
+      "file": "src/AnalysisMessenger.cc",
+      "url": "https://raw.githubusercontent.com/Geant4/geant4/v11.3.2/examples/advanced/dna/moleculardna/src/AnalysisMessenger.cc",
+      "git_blob_sha": "d2810db02a06baf239c6cdf9146fa94f43939b29",
+      "sha256": "11a541b4bf885cc959782b02c2436870a1b80c48a64393937588e9a657f3d960",
+      "bytes": 4730
+    },
+    {
+      "file": "src/BoxChromosome.cc",
+      "url": "https://raw.githubusercontent.com/Geant4/geant4/v11.3.2/examples/advanced/dna/moleculardna/src/BoxChromosome.cc",
+      "git_blob_sha": "5b224c552ed9b79a23901e0a15ee2d79f761545c",
+      "sha256": "946dc0eac6203cb256d2b35edc332bb942a2b8b49d80f383cf6fa1b7eab99aee",
+      "bytes": 3702
+    },
+    {
+      "file": "src/ChemistryList.cc",
+      "url": "https://raw.githubusercontent.com/Geant4/geant4/v11.3.2/examples/advanced/dna/moleculardna/src/ChemistryList.cc",
+      "git_blob_sha": "5c4642b0b6e2dabf3f9a9045bcecd6a84ec55d8f",
+      "sha256": "82c4ba6b676dc61ae18e1d474e3151887c9a2e0368b52251d4b9efca5eaedb74",
+      "bytes": 32851
+    },
+    {
+      "file": "src/ChromosomeFactory.cc",
+      "url": "https://raw.githubusercontent.com/Geant4/geant4/v11.3.2/examples/advanced/dna/moleculardna/src/ChromosomeFactory.cc",
+      "git_blob_sha": "e870ccd834fabb8f57b1f07e601df540cd3937f4",
+      "sha256": "9c3d8e9b76f78093a052ca5a25ddb3b40185d7de14f019afe2658f7ff3193a62",
+      "bytes": 15288
+    },
+    {
+      "file": "src/ChromosomeHit.cc",
+      "url": "https://raw.githubusercontent.com/Geant4/geant4/v11.3.2/examples/advanced/dna/moleculardna/src/ChromosomeHit.cc",
+      "git_blob_sha": "6082bea2fd3c0f17889c24adc92d284a86edc5cc",
+      "sha256": "14ea5af44035db5c5f1ba80d60743d096a207b6faaf06b2499e6759ec2227519",
+      "bytes": 2800
+    },
+    {
+      "file": "src/ChromosomeMapper.cc",
+      "url": "https://raw.githubusercontent.com/Geant4/geant4/v11.3.2/examples/advanced/dna/moleculardna/src/ChromosomeMapper.cc",
+      "git_blob_sha": "4a8a599bfa105b4a20003e8ef674d0e17d3d7a42",
+      "sha256": "a4beef8b2158dfd7de08e39b60503120d4bb71d3c3b06fe0c955012ec7f0b586",
+      "bytes": 5011
+    },
+    {
+      "file": "src/ChromosomeMessenger.cc",
+      "url": "https://raw.githubusercontent.com/Geant4/geant4/v11.3.2/examples/advanced/dna/moleculardna/src/ChromosomeMessenger.cc",
+      "git_blob_sha": "4c70b0a0f06b43083acc565dcc3aff77b5756abd",
+      "sha256": "b191bb915d560a8be4862ccfd85df7381ca7c3a24c05a6a67305f326322ec90b",
+      "bytes": 3785
+    },
+    {
+      "file": "src/CylindricalChromosome.cc",
+      "url": "https://raw.githubusercontent.com/Geant4/geant4/v11.3.2/examples/advanced/dna/moleculardna/src/CylindricalChromosome.cc",
+      "git_blob_sha": "ebd62516e3b8ada093d835c7aef3e1d77d1caa6b",
+      "sha256": "87aab5b8247ae3b4edfab684e5f91dc6e22293b112c9ce6906bec0df5799c248",
+      "bytes": 4072
+    },
+    {
+      "file": "src/DNAGeometry.cc",
+      "url": "https://raw.githubusercontent.com/Geant4/geant4/v11.3.2/examples/advanced/dna/moleculardna/src/DNAGeometry.cc",
+      "git_blob_sha": "a0c4d702058dc54605979420c3deceae38e271ad",
+      "sha256": "05b8f3c8ba962a76c94c7c86e832b636e77b819184cd425d91ea833b088c8735",
+      "bytes": 61267
+    },
+    {
+      "file": "src/DNAGeometryMessenger.cc",
+      "url": "https://raw.githubusercontent.com/Geant4/geant4/v11.3.2/examples/advanced/dna/moleculardna/src/DNAGeometryMessenger.cc",
+      "git_blob_sha": "565b132f1d29539e52da4b917d834c9808a777b8",
+      "sha256": "3453a2852e8cbbdeb830d3da5c25204bb7508fabf9d372ce78e3d05c1f11bb34",
+      "bytes": 11569
+    },
+    {
+      "file": "src/DNAHashing.cc",
+      "url": "https://raw.githubusercontent.com/Geant4/geant4/v11.3.2/examples/advanced/dna/moleculardna/src/DNAHashing.cc",
+      "git_blob_sha": "ea5d722dea091fc0951dc6491963d9e56950563d",
+      "sha256": "020952563c6643581f9f58c0d80efa6c3899e411444aaa3d94331361d0c4de24",
+      "bytes": 2915
+    },
+    {
+      "file": "src/DNAHit.cc",
+      "url": "https://raw.githubusercontent.com/Geant4/geant4/v11.3.2/examples/advanced/dna/moleculardna/src/DNAHit.cc",
+      "git_blob_sha": "394db5069b1ca0a668bf644e30bb9b97899a7d20",
+      "sha256": "6385f8370044f518b8046f13c11e9d106796ca3f13f62d323386fcbb249c9e9e",
+      "bytes": 6716
+    },
+    {
+      "file": "src/DNAWorld.cc",
+      "url": "https://raw.githubusercontent.com/Geant4/geant4/v11.3.2/examples/advanced/dna/moleculardna/src/DNAWorld.cc",
+      "git_blob_sha": "88191ee0c45b27b26563ffea818feee704296f83",
+      "sha256": "ed5b5c25ee1866a14cf31875e6a6b1df7e60439f6076df1c890b2961e85dfd43",
+      "bytes": 2708
+    },
+    {
+      "file": "src/DamageModel.cc",
+      "url": "https://raw.githubusercontent.com/Geant4/geant4/v11.3.2/examples/advanced/dna/moleculardna/src/DamageModel.cc",
+      "git_blob_sha": "84eea3d9c2945c163139248211aa7be7a9688c96",
+      "sha256": "a9467f8bd17ca2caa988396109afc21104fd52b119bf299a1bf7dd574cc1abac",
+      "bytes": 4379
+    },
+    {
+      "file": "src/DamageModelMessenger.cc",
+      "url": "https://raw.githubusercontent.com/Geant4/geant4/v11.3.2/examples/advanced/dna/moleculardna/src/DamageModelMessenger.cc",
+      "git_blob_sha": "4b45e5ae3c53bb7b2144d707c0134f182f8520e2",
+      "sha256": "63f17d80e8f41c2e254006ecaa10dbafd47a53c35126660d25b6a6b60b6ecde1",
+      "bytes": 7531
+    },
+    {
+      "file": "src/DetectorConstruction.cc",
+      "url": "https://raw.githubusercontent.com/Geant4/geant4/v11.3.2/examples/advanced/dna/moleculardna/src/DetectorConstruction.cc",
+      "git_blob_sha": "430617915b903e8f45b67f26a696815e9c5c915b",
+      "sha256": "996b7e3d18c2f7d4dbc0df2e3b8f1e0de50082fef2767a6e91d82c6ba6fcd621",
+      "bytes": 5459
+    },
+    {
+      "file": "src/DetectorMessenger.cc",
+      "url": "https://raw.githubusercontent.com/Geant4/geant4/v11.3.2/examples/advanced/dna/moleculardna/src/DetectorMessenger.cc",
+      "git_blob_sha": "603c525b23fef4c75ca6fac1448a39717ca0acd2",
+      "sha256": "866b4caca67ade3fc77ac4dcf1c20d3e918fbe811e3d6fe04bfb7ed3a6a521a2",
+      "bytes": 3794
+    },
+    {
+      "file": "src/EllipticalChromosome.cc",
+      "url": "https://raw.githubusercontent.com/Geant4/geant4/v11.3.2/examples/advanced/dna/moleculardna/src/EllipticalChromosome.cc",
+      "git_blob_sha": "9ede384cd72ee9f9601007484f8e14e2e9fbc83d",
+      "sha256": "fc330f1014bb2cbe681537249a1c8c8c41115548a8051970601bc56fa08ab7e2",
+      "bytes": 4469
+    },
+    {
+      "file": "src/EventAction.cc",
+      "url": "https://raw.githubusercontent.com/Geant4/geant4/v11.3.2/examples/advanced/dna/moleculardna/src/EventAction.cc",
+      "git_blob_sha": "04e31991b9d21ad360a02868095babc1d478bc61",
+      "sha256": "3505952353e26916f1cd25bffe0230dae4ef67da4616b61985bc5c53e9ec3806",
+      "bytes": 5045
+    },
+    {
+      "file": "src/IRTDamageReactionModel.cc",
+      "url": "https://raw.githubusercontent.com/Geant4/geant4/v11.3.2/examples/advanced/dna/moleculardna/src/IRTDamageReactionModel.cc",
+      "git_blob_sha": "1a9852f3ced790b976726a5ea105cd745b54bee5",
+      "sha256": "7f98ebbca1d6db19f43c02dcc0a4fbf570f380a65b0d612bb95e7f5d65cb4870",
+      "bytes": 12274
+    },
+    {
+      "file": "src/OctreeNode.cc",
+      "url": "https://raw.githubusercontent.com/Geant4/geant4/v11.3.2/examples/advanced/dna/moleculardna/src/OctreeNode.cc",
+      "git_blob_sha": "c98eebeafe31ec3749b32d457092f0d44cf8eb65",
+      "sha256": "33fb673c90f3a78ce25184fef614b3392a4357cf5c24b7c056b6c841a8b32bbe",
+      "bytes": 10823
+    },
+    {
+      "file": "src/ParallelWorldPhysics.cc",
+      "url": "https://raw.githubusercontent.com/Geant4/geant4/v11.3.2/examples/advanced/dna/moleculardna/src/ParallelWorldPhysics.cc",
+      "git_blob_sha": "ae984f5cf8a00655c176d0cd470193ae9b1eefad",
+      "sha256": "021df64dc59ff86bdeb4a457f610121cf17e772d7fce111856f3be63eba2cbbd",
+      "bytes": 3805
+    },
+    {
+      "file": "src/PhysicsList.cc",
+      "url": "https://raw.githubusercontent.com/Geant4/geant4/v11.3.2/examples/advanced/dna/moleculardna/src/PhysicsList.cc",
+      "git_blob_sha": "c27ca7596ff3ac23ffeb4771c1856741a2b17e06",
+      "sha256": "7f41a2348bbe639925c7a11aa3a6d46e77d1eeecb214daea856e448e22320f51",
+      "bytes": 3272
+    },
+    {
+      "file": "src/PlacementVolumeInfo.cc",
+      "url": "https://raw.githubusercontent.com/Geant4/geant4/v11.3.2/examples/advanced/dna/moleculardna/src/PlacementVolumeInfo.cc",
+      "git_blob_sha": "59b89b03ffe5b64762fad4426d8689a98d9bdda5",
+      "sha256": "681b8875837ff6a0e71855d34b6053f79ed02e0a9c58bd1da1e3348c9d342d7d",
+      "bytes": 2685
+    },
+    {
+      "file": "src/PrimaryGeneratorAction.cc",
+      "url": "https://raw.githubusercontent.com/Geant4/geant4/v11.3.2/examples/advanced/dna/moleculardna/src/PrimaryGeneratorAction.cc",
+      "git_blob_sha": "5ecf9499f090de6b8ffbf6f8d20dc15b872fd57f",
+      "sha256": "225dca78609ff1355949a034567f6aa1200bd045eeff9e033b8677c15dae7394",
+      "bytes": 5120
+    },
+    {
+      "file": "src/PrimaryGeneratorMessenger.cc",
+      "url": "https://raw.githubusercontent.com/Geant4/geant4/v11.3.2/examples/advanced/dna/moleculardna/src/PrimaryGeneratorMessenger.cc",
+      "git_blob_sha": "33a8f01e13f85f1f43428115217e0ab063e24885",
+      "sha256": "369e56dad9c6d59d3458c71cefa84ed9136ede56be95a31a54a6b85baccf3202",
+      "bytes": 3004
+    },
+    {
+      "file": "src/PrimaryGeneratorSourceGRASCSV.cc",
+      "url": "https://raw.githubusercontent.com/Geant4/geant4/v11.3.2/examples/advanced/dna/moleculardna/src/PrimaryGeneratorSourceGRASCSV.cc",
+      "git_blob_sha": "deb9f2d5db7cb87977034b878f3930987a211925",
+      "sha256": "d855f923d083d273b5dce074fd5ae23156a7bd902c863327faba8be7685b87ef",
+      "bytes": 6471
+    },
+    {
+      "file": "src/RodChromosome.cc",
+      "url": "https://raw.githubusercontent.com/Geant4/geant4/v11.3.2/examples/advanced/dna/moleculardna/src/RodChromosome.cc",
+      "git_blob_sha": "e4a950f3b83694238083ec6354358a20741a835f",
+      "sha256": "f0752d2ef7c7594d508c0a27537921e49c987f941f7fed46686a242df8ca53f1",
+      "bytes": 4675
+    },
+    {
+      "file": "src/RunAction.cc",
+      "url": "https://raw.githubusercontent.com/Geant4/geant4/v11.3.2/examples/advanced/dna/moleculardna/src/RunAction.cc",
+      "git_blob_sha": "9c6450be74e805d5ee3a33a805f75d1e87acefa7",
+      "sha256": "773783deff4ec888bfcf5758a5ea4e12794a10ca82dd08e1691de9f7180363d0",
+      "bytes": 2611
+    },
+    {
+      "file": "src/SphericalChromosome.cc",
+      "url": "https://raw.githubusercontent.com/Geant4/geant4/v11.3.2/examples/advanced/dna/moleculardna/src/SphericalChromosome.cc",
+      "git_blob_sha": "5b83eb26bb1a46b031428036943ea0396812ee73",
+      "sha256": "fb56abebd004babb806548ca047775d0211353dc4c8e9dda6682ba69e5454079",
+      "bytes": 3823
+    },
+    {
+      "file": "src/StackingAction.cc",
+      "url": "https://raw.githubusercontent.com/Geant4/geant4/v11.3.2/examples/advanced/dna/moleculardna/src/StackingAction.cc",
+      "git_blob_sha": "e02d13df98bd987a0e735937b20ab0f8f1254a9d",
+      "sha256": "cb56a32e05a19aa561fd275ed1868dc7325b859eb8502700f352e7ce96b8fb01",
+      "bytes": 2138
+    },
+    {
+      "file": "src/SteppingAction.cc",
+      "url": "https://raw.githubusercontent.com/Geant4/geant4/v11.3.2/examples/advanced/dna/moleculardna/src/SteppingAction.cc",
+      "git_blob_sha": "39fdc78f34cd20c1c0c88fef6ee472ac0c70ecf7",
+      "sha256": "a369ce766ab8eec2c5419acca8f2fe33277ef305f260ae06a7f6fb8f4cbbb645",
+      "bytes": 9109
+    },
+    {
+      "file": "src/TimeStepAction.cc",
+      "url": "https://raw.githubusercontent.com/Geant4/geant4/v11.3.2/examples/advanced/dna/moleculardna/src/TimeStepAction.cc",
+      "git_blob_sha": "e32da90c70432b78517659510d4ace0f8aebb520",
+      "sha256": "7377d0c1e2b6911783f18b1231085b1c5c87264276c8e0268a78963b803f6102",
+      "bytes": 5785
+    },
+    {
+      "file": "src/UtilityFunctions.cc",
+      "url": "https://raw.githubusercontent.com/Geant4/geant4/v11.3.2/examples/advanced/dna/moleculardna/src/UtilityFunctions.cc",
+      "git_blob_sha": "f68b1934834bdf22f3520cf17362c202a969867d",
+      "sha256": "6c5e00094f0cfb81b2d2273b49b7b2fa2466270764ec7ac704342648b219811b",
+      "bytes": 4663
+    },
+    {
+      "file": "src/VirtualChromosome.cc",
+      "url": "https://raw.githubusercontent.com/Geant4/geant4/v11.3.2/examples/advanced/dna/moleculardna/src/VirtualChromosome.cc",
+      "git_blob_sha": "27516192ccabfbd5661d9ce4eee6e46bff6a01e3",
+      "sha256": "da276add0199a98b1fd899b1c4397bc31e2396f733667a1f9c19fe5417eb23e6",
+      "bytes": 2370
+    },
+    {
+      "file": "vis.mac",
+      "url": "https://raw.githubusercontent.com/Geant4/geant4/v11.3.2/examples/advanced/dna/moleculardna/vis.mac",
+      "git_blob_sha": "5d79c93db4fbfb1f998fdf0a982aee6cf276055c",
+      "sha256": "9da7af3a33864e1f2d6e85d29b6ef91c34ad7c169e41b70eef4e9f6c9306708f",
+      "bytes": 2317
+    }
+  ],
+  "local_comparison_root": "/home/shigu/Applications/GEANT4/geant4-v11.3.2/examples/advanced/dna/moleculardna",
+  "local_files_different_from_official": []
+}

@@ -1,0 +1,4 @@
+/build*/
+*.root
+__pycache__/
+/.venv-analysis/
